@@ -9,7 +9,7 @@ Minimal Next.js App Router project with Aurora SDK. Add drop-in components and b
 ## Setup
 
 1. Copy `.env.example` to `.env.local`
-2. Set `NEXT_PUBLIC_AURORA_API_URL` and `AURORA_API_KEY` (from Aurora Studio → API Keys)
+2. Set `NEXT_PUBLIC_AURORA_API_URL`, `AURORA_API_KEY` (from Aurora Studio → API Keys), and `NEXT_PUBLIC_TENANT_SLUG` (for store/checkout features)
 3. `pnpm install && pnpm dev`
 
 ## Drop-in Components

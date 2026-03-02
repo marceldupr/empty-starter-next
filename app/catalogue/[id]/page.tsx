@@ -58,6 +58,15 @@ export default async function ProductPage({
               }).format(priceCents / 100)}
             </p>
           )}
+          <section data-holmes="recommendations" className="mt-8 pt-8 border-t border-slate-700">
+            <h2 className="text-lg font-semibold mb-2">You might also like</h2>
+            <Link
+              href="/catalogue"
+              className="text-cyan-400 hover:text-cyan-300 transition-colors"
+            >
+              View full catalogue →
+            </Link>
+          </section>
         </div>
       </div>
     </div>

@@ -35,6 +35,10 @@ const aurora = new AuroraClient({
 const { data } = await aurora.tables("products").records.list({ limit: 10 });
 ```
 
-## Deploy to Vercel
+## Init (first-run)
 
-From Aurora Studio: Settings → Storefront → Deploy to Vercel. Env vars are injected automatically.
+The `init/` folder is for optional first-run schema provisioning. This template doesn’t provision tables; see `init/README.md` if you want to add the same pattern as the e-commerce starter.
+
+## Deploy
+
+From Aurora Studio: Settings → App templates → Generate deploy credentials. Add the env vars to your host (Vercel, Railway, etc.).

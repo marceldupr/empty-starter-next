@@ -10,12 +10,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@aurora-studio/sdk": "0.2.6",
+    "@aurora-studio/sdk": "0.2.7",
     "next": "15.0.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.4",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
